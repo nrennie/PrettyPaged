@@ -10,5 +10,3 @@ contributes:
     pdf:
       pdf-engine: pagedjs-cli
       include-in-header: PrettyPaged.scss
-      format-resources:
-        - logo.png
