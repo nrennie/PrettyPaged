@@ -17,8 +17,18 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - uses: actions/setup-node@v3
-      - run: npm install -g pagedjs-cli pagedjs
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: npm-${{ hashFiles('package-lock.json') }}
+          restore-keys: npm-
+
+      - name: Install dependencies
+        run: npm ci
 
       - name: Install R
         uses: r-lib/actions/setup-r@v2
