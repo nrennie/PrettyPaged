@@ -1,0 +1,13 @@
+title: PrettyPaged
+author: Nicola Rennie
+version: 0.0.1
+quarto-required: ">=1.4.11"
+contributes:
+  project:
+    project:
+      type: book
+  formats:
+    pdf:
+      pdf-engine: pagedjs-cli
+      format-resources:
+        - logo.png
