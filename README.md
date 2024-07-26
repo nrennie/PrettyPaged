@@ -12,7 +12,7 @@ Quarto extension for a template to generate a PDF from a paged HTML document wit
 To use this extension, you must have [Paged.js](https://pagedjs.org/) installed on your system. See the **Command line version** section of [pagedjs.org/documentation/2-getting-started-with-paged.js](https://pagedjs.org/documentation/2-getting-started-with-paged.js/) for instructions.
 
 > [!WARNING]
-> There are still some issues with getting `pagedjs-cli` to work with pandoc on Windows. See [#8946](https://github.com/quarto-dev/quarto-cli/issues/8946) and [#8061](https://github.com/jgm/pandoc/issues/8061).
+> There are still some issues with getting `pagedjs-cli` to work with pandoc on Windows. See [#8946](https://github.com/quarto-dev/quarto-cli/issues/8946) and [#8061](https://github.com/jgm/pandoc/issues/8061). A workaround is to render the Quarto document using `format: PrettyPaged-html` and then in the command line run `pagedjs-cli -i template.html -o template.pdf` to convert from HTML to PDF.
 
 ### Quarto extension installation
 
