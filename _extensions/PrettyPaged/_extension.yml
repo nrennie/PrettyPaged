@@ -9,7 +9,10 @@ contributes:
   formats:
     pdf:
       pdf-engine: pagedjs-cli
-      include-in-header: PrettyPaged.scss
+      include-in-header:
+        - text: |
+            <link rel="stylesheet" href="PrettyPaged.css">
     html:
-      include-in-header: PrettyPaged.scss
-      
+      include-in-header:
+        - text: |
+            <link rel="stylesheet" href="PrettyPaged.css">
