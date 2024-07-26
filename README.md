@@ -1,8 +1,10 @@
 # PrettyPaged
 
-Quarto extension for a template to generate a PDF from a paged HTML document with (pretty) styling using Paged.js. Use `PrettyPaged-pdf` for the format. Note that version 1.4 or greater of Quarto is required.
+> **Warning**
+>
+> This extension is a work in progress - it's not ready for testing yet!
 
-> Note: see [github.com/nrennie/PrettyPDF](https://github.com/nrennie/PrettyPDF) for the LaTeX version of this template and [github.com/nrennie/PrettyTypst](https://github.com/nrennie/PrettyTypst) for the Typst version of this template.
+Quarto extension for a template to generate a PDF from a paged HTML document with (pretty) styling using Paged.js. Use `PrettyPaged-pdf` for the format. See [github.com/nrennie/PrettyPDF](https://github.com/nrennie/PrettyPDF) for the LaTeX version of this template and [github.com/nrennie/PrettyTypst](https://github.com/nrennie/PrettyTypst) for the Typst version of this template.
 
 ## Installation and use
 
@@ -10,10 +12,9 @@ Quarto extension for a template to generate a PDF from a paged HTML document wit
 
 To use this extension, you must have [Paged.js](https://pagedjs.org/) installed on your system. See the **Command line version** section of [pagedjs.org/documentation/2-getting-started-with-paged.js](https://pagedjs.org/documentation/2-getting-started-with-paged.js/) for instructions.
 
-#### Issues with pandoc and Paged.js on Windows
-
-There are still some issues with getting `pagedjs-cli` to work with pandoc on Windows. See [#8946](https://github.com/quarto-dev/quarto-cli/issues/8946) and [#8061](https://github.com/jgm/pandoc/issues/8061).
-
+> **Warning**
+>
+> There are still some issues with getting `pagedjs-cli` to work with pandoc on Windows. See [#8946](https://github.com/quarto-dev/quarto-cli/issues/8946) and [#8061](https://github.com/jgm/pandoc/issues/8061).
 
 ### Quarto extension installation
 
@@ -35,8 +36,3 @@ project:
   type: PrettyPaged
 ```
 to the `_quarto.yml` file.
-
-
-### Logo
-
-Either replace the `logo.png` file with a new file of your choosing, or change the file path in the YAML to point to a different logo file. Note that the file path is relative to your .qmd file.
