@@ -10,7 +10,18 @@ Quarto extension for a template to generate a PDF from a paged HTML document wit
 
 To use this extension, you must have [Paged.js](https://pagedjs.org/) installed on your system. See the **Command line version** section of [pagedjs.org/documentation/2-getting-started-with-paged.js](https://pagedjs.org/documentation/2-getting-started-with-paged.js/) for instructions.
 
-> Note: there are still some issues with getting `pagedjs-cli` to work with pandoc on Windows. See [#8946](https://github.com/quarto-dev/quarto-cli/issues/8946) and [#8061](https://github.com/jgm/pandoc/issues/8061).
+#### Issues with pandoc and Paged.js on Windows
+
+There are still some issues with getting `pagedjs-cli` to work with pandoc on Windows. See [#8946](https://github.com/quarto-dev/quarto-cli/issues/8946) and [#8061](https://github.com/jgm/pandoc/issues/8061).
+
+A workaround is to pass in the full path of the `pagedjs-cli.cmd` file as the `pdf-engine`. Due to checks performed by Quarto, this doesn't work if you pass it into the YAML. Instead, pass it in when you render using the command line:
+
+```
+quarto render template.qmd --pdf-engine="C:\Users\nrenn\AppData\Roaming\npm\pagedjs-cli.cmd"
+```
+
+
+
 
 ### Quarto extension installation
 
