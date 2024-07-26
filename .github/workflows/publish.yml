@@ -22,6 +22,11 @@ jobs:
         with:
           use-public-rspm: true
 
+      - name: Install dependencies
+        run: |
+          install.packages(c("rmarkdown", "knitr"))
+        shell: Rscript {0}
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
