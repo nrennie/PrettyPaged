@@ -1,6 +1,6 @@
 # PrettyPaged
 
-Quarto extension for a template to generate a paged HTML document with (pretty) styling using Paged.js. Use `PrettyPaged-pdf` for the format. Note that version 1.4 or greater of Quarto is required.
+Quarto extension for a template to generate a PDF from a paged HTML document with (pretty) styling using Paged.js. Use `PrettyPaged-pdf` for the format. Note that version 1.4 or greater of Quarto is required.
 
 > Note: see [github.com/nrennie/PrettyPDF](https://github.com/nrennie/PrettyPDF) for the LaTeX version of this template and [github.com/nrennie/PrettyTypst](https://github.com/nrennie/PrettyTypst) for the Typst version of this template.
 
