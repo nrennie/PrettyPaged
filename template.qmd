@@ -1,6 +1,6 @@
 ---
 title: "Pretty PDFs with Quarto"
-format: PrettyPaged-html
+format: PrettyPaged-pdf
 ---
 
 ## Quarto
