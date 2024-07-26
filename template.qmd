@@ -1,0 +1,39 @@
+---
+title: "Pretty PDFs with Quarto"
+typst-logo: 
+  path: "logo.png"
+format: PrettyPaged-pdf
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+### Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+## Some long section that goes onto multiple pages
+
+Lorem ipsum odor amet, consectetuer adipiscing elit. Commodo etiam tristique tempor nibh praesent laoreet. Suspendisse iaculis magnis vehicula pharetra praesent auctor pulvinar. Vulputate vivamus lacus aliquet curae mollis. Nullam quis erat leo sem ullamcorper tempor. Auctor parturient laoreet ad vitae nullam; dictum rhoncus? Montes semper ridiculus fusce et curae fames nulla.
+
+Nisi nulla et pellentesque integer; lorem hendrerit dolor? Mauris laoreet in enim ultrices facilisi. Pretium diam dapibus mus potenti platea convallis, velit non. Sodales turpis scelerisque aptent; fames adipiscing praesent aenean. Turpis vehicula vivamus malesuada consequat; sodales varius elit mi. Arcu euismod congue neque condimentum consectetur neque. Platea nam nulla elit nascetur pulvinar. Primis mattis placerat, himenaeos cursus tempor non ultrices. Est leo pulvinar lectus condimentum diam facilisi proin curabitur.
+
+Et imperdiet suspendisse non sed egestas ultricies aliquam commodo? Condimentum bibendum blandit sagittis arcu in sagittis. Donec iaculis tincidunt tempus; primis imperdiet lorem quam. Interdum viverra odio conubia conubia vel eget rhoncus. Nostra proin nostra habitasse sed vestibulum nulla ex diam. Sollicitudin sapien natoque maecenas eu phasellus pretium maecenas eleifend. Elit sapien per facilisi molestie felis neque fames bibendum. Auctor ipsum proin mollis; sollicitudin ex lacinia placerat natoque.
+
+Porttitor etiam platea duis urna imperdiet est velit. Purus ipsum dapibus donec fringilla purus ullamcorper natoque. Fames sodales condimentum sociosqu parturient molestie nostra faucibus. Netus cras facilisi fusce netus; curabitur cubilia facilisis. Pulvinar augue fringilla augue augue risus. Turpis rhoncus sem curabitur auctor inceptos egestas purus. Quam sagittis conubia dignissim mi sociosqu taciti nisi.
+
+Rhoncus etiam ornare tellus, bibendum vitae mus. Mollis luctus accumsan scelerisque nostra ipsum integer. Adipiscing rutrum vehicula volutpat natoque euismod orci venenatis platea. Taciti elementum tincidunt tempor habitasse placerat venenatis; montes diam inceptos. Suspendisse dolor ultrices eu venenatis mollis iaculis nec. Vivamus quisque primis pharetra erat ullamcorper aenean aenean natoque pharetra.
