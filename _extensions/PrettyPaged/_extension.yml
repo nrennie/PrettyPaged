@@ -10,3 +10,6 @@ contributes:
     pdf:
       pdf-engine: pagedjs-cli
       include-in-header: PrettyPaged.scss
+    html:
+      include-in-header: PrettyPaged.scss
+      
