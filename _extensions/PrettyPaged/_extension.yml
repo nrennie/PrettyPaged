@@ -7,7 +7,8 @@ contributes:
     project:
       type: book
   formats:
-    pdf:
+    html:
       pdf-engine: pagedjs-cli
+      include-in-header: PrettyPaged.scss
       format-resources:
         - logo.png
