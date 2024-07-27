@@ -8,11 +8,24 @@ contributes:
       type: book
   formats:
     pdf:
+      toc: false
+      format-links: false
       pdf-engine: pagedjs-cli
+      format-resources:
+        - logo.png
+        - PrettyPaged.css
+      css: PrettyPaged.css
       include-in-header:
         - text: |
             <link rel="stylesheet" href="PrettyPaged.css">
     html:
+      toc: false
+      format-links: false
+      format-resources:
+        - logo.png
+        - PrettyPaged.css
+      css: PrettyPaged.css
+      self-contained: true
       include-in-header:
         - text: |
             <link rel="stylesheet" href="PrettyPaged.css">
