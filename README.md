@@ -1,6 +1,10 @@
 # PrettyPaged
 
-Quarto extension for a template to generate a PDF from a paged HTML document with (pretty) styling using `wkhtmltopdf`. Use `PrettyPaged-pdf` for the format. See [github.com/nrennie/PrettyPDF](https://github.com/nrennie/PrettyPDF) for the LaTeX version of this template and [github.com/nrennie/PrettyTypst](https://github.com/nrennie/PrettyTypst) for the Typst version of this template.
+Quarto extension for a template to generate a PDF from a paged HTML document with (pretty) styling using `wkhtmltopdf`.
+
+See the template example: [nrennie.rbind.io/PrettyPaged](https://nrennie.rbind.io/PrettyPaged/)
+
+Use `PrettyPaged-pdf` for the format. See [github.com/nrennie/PrettyPDF](https://github.com/nrennie/PrettyPDF) for the LaTeX version of this template and [github.com/nrennie/PrettyTypst](https://github.com/nrennie/PrettyTypst) for the Typst version of this template.
 
 ## Installation and use
 

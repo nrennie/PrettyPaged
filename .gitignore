@@ -4,6 +4,7 @@
 .Ruserdata
 nul
 *.Rproj
+template.pdf
 logo.png
 template.html
 template_files/*
